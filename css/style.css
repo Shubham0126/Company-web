@@ -58,25 +58,25 @@ h6 {
 }
 
 h1 {
-     font-size: 24px
+     font-size: 24px;
 }
 
 h2 {
-     font-size: 22px
+     font-size: 30px;
 }
 
 
 
 h4 {
-     font-size: 16px
+     font-size: 20px;
 }
 
 h5 {
-     font-size: 14px
+     font-size: 18px;
 }
 
 h6 {
-     font-size: 13px
+     font-size: 13px;
 }
 
 *,
@@ -1263,4 +1263,49 @@ input.mail_bt::placeholder {
 	height: 27rem;
 	background: url('../images/img-10.png') center center no-repeat;
 	background-size: cover;
+}
+
+/* Career Section */
+.career-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url(../images/careers-bg.webp);
+    height: 90vh;
+}
+.career-bg h1{
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+}
+
+.career-box{
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.career-feature{
+    background-color: #500d12;
+    padding: 50px 0px;
+}
+
+.job-Posting{
+    border: 2px solid #500d12;
+}
+.job-Posting .card-body a{
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #500d12;
+    color: white;
+    font-weight: 500;
+}
+
+.job-Posting .card-body a:hover{
+    
+    background-color: white;
+    color: #500d12;
+    border: 1px solid;
+    border-color: #500d12;
 }
