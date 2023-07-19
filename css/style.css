@@ -1271,7 +1271,7 @@ input.mail_bt::placeholder {
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url(../images/careers-bg.webp);
-    height: 90vh;
+    height: 70vh;
 }
 .career-bg h1{
     font-weight: bold;
@@ -1303,9 +1303,20 @@ input.mail_bt::placeholder {
 }
 
 .job-Posting .card-body a:hover{
-    
+    font-weight: bold;
     background-color: white;
     color: #500d12;
     border: 1px solid;
     border-color: #500d12;
+}
+
+.btn-primary{
+    background-color: #500d12;
+    border-color: #500d12;
+}
+.btn-primary:hover{
+    background-color: white;
+    color: #500d12;
+    border-color: #500d12;
+    font-weight: bold;
 }

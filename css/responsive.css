@@ -275,7 +275,9 @@ display: block;
     margin-top: 0px;
     margin-left: -7px;
 }
-
+.career-bg{
+    height: 60vh;
+}
 .banner-main .carousel-caption h1 {
     font-size: 50px;
 }
@@ -358,6 +360,9 @@ font-size: 14px;}
     width: 100%;
 }
 
+.career-bg{
+    height: 40vh;
+}
 
 #main_slider a.carousel-control-prev {
     position: absolute;
@@ -490,6 +495,7 @@ ul.link li {
     .sinse-box .sinse-title {
       font-size: 1.8rem;
     }
+   
   }
 
 @media (min-width: 992px) {
