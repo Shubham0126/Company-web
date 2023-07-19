@@ -1,7 +1,7 @@
 /*---------------------------------------------------------------------
     File Name: custom.js
 ---------------------------------------------------------------------*/
-
+ 
 $(function () {
 	
 	"use strict";
@@ -369,3 +369,14 @@ $(function () {
 
 
 });
+
+//Navigation
+$(window).scroll(function(){
+	if ($(this).scrollTop() > 100) {
+		
+		$('.navbar').addClass('fixed-top')
+	} else {
+		
+		$('.navbar').removeClass('fixed-top')
+	}
+  });
