@@ -381,7 +381,7 @@ button {
 .image_0 {
     width: 50%;
     float: left;
-    background-image: url(../images/img-2.png);
+    background-image: url(../images/img-2.webp);
     height: 200px;
     padding: 70px 50px 130px 50px;
     background-size: 100%;
@@ -1071,7 +1071,7 @@ input.mail_bt::placeholder {
 /*************************/
 .accordion .area-1 {
 	height: 27rem;
-	background: url('../images/img-12.png') center center no-repeat;
+	background: url('../images/img-12.webp') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1261,7 +1261,7 @@ input.mail_bt::placeholder {
 
 .tabs .area-2 {
 	height: 27rem;
-	background: url('../images/img-10.png') center center no-repeat;
+	background: url('../images/img-10.webp') center center no-repeat;
 	background-size: cover;
 }
 
